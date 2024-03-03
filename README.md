@@ -1,3 +1,3 @@
-# The Official PyTorch Implementation of ZegOT: Zero-shot Segmentation Through Optimal Transport of Text Prompts
+# The Official PyTorch Implementation of OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation
 
 ## Code will be relaesed soon!!

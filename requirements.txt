@@ -1,0 +1,6 @@
+mmsegmentation==0.24.0
+timm==0.3.2
+mmcv-full==1.4.4
+setuptools
+scipy 
+einops

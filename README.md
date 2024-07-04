@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation
+# OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation (ECCV 2024)
 
 Authors: Kwanyoung Kim*, Yujin Oh*, Jong Chul Ye*    
 
@@ -100,8 +99,3 @@ CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-voc.p
       url={https://arxiv.org/abs/2403.14183}, 
 }
 ```
-=======
-# The Official PyTorch Implementation of OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation
-
-## Code will be relaesed soon!!
->>>>>>> main

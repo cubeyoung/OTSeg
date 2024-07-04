@@ -78,13 +78,13 @@ CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-coco.
 CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-voc.py Path/to/context/trans/iter_40000.pth --eval=mIoU
 ```
 
-## Related Assets \& Acknowledgement
+## Acknowledgement:
  - CLIP:  https://github.com/openai/CLIP
  - MaskCLIP: https://github.com/chongzhou96/MaskCLIP
  - DenseCLIP: https://github.com/raoyongming/DenseCLIP/blob/master/segmentation/denseclip
  - Visual Prompt Tuning: https://github.com/KMnP/vpt
  - ZegOT: https://arxiv.org/abs/2301.12171
- - OTSeg: https://github.com/ZiqinZhou66/OTSeg
+ - ZegCLIP: https://github.com/ZiqinZhou66/ZegCLIP
  
 ## Citation:
 ```

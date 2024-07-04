@@ -1,6 +1,8 @@
 # OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation
 
-Authors: Kwanyoung Kim*, Yujin Oh*, Jong Chul Ye*    *Equal contribution
+Authors: Kwanyoung Kim*, Yujin Oh*, Jong Chul Ye*    
+
+*Equal contribution
 
 [[paper](https://arxiv.org/pdf/2403.14183)] [[project](https://cubeyoung.github.io/OTSeg_project/)] 
 

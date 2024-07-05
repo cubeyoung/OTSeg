@@ -66,15 +66,15 @@ https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d
 
 |     Dataset     |   Setting    |    Model Zoo   |
 | :-------------: | :---------:  | :----------------------------------------------------------: |
-| PASCAL VOC 2012 |  Inductive   |  [[Google Drive](https://drive.google.com/)] |
-| PASCAL VOC 2012 | Transductive |  [[Google Drive](https://drive.google.com/)] |
-| PASCAL VOC 2012 |    Fully     |  [[Google Drive](https://drive.google.com/)] |
-| PASCAL CONTEXT  |  Inductive   |  [[Google Drive](https://drive.google.com/)] |
-| PASCAL CONTEXT  | Transductive |  [[Google Drive](https://drive.google.com/)] |
-| PASCAL CONTEXT  |    Fully     |  [[Google Drive](https://drive.google.com/)] |
-| COCO Stuff 164K |  Inductive   |  [[Google Drive](https://drive.google.com/)] |
-| COCO Stuff 164K | Transductive |  [[Google Drive](https://drive.google.com/)] |
-| COCO Stuff 164K |    Fully     |  [[Google Drive](https://drive.google.com/)] |
+| PASCAL VOC 2012 |  Inductive   |  [[Google Drive](https://drive.google.com/file/d/1UjyrFxQ0TTSDiQYse5MxAvHVyhJpqgMA/view?usp=drive_link)] |
+| PASCAL VOC 2012 | Transductive |  [[Google Drive](https://drive.google.com/file/d/1SPXHxDl7znsOqUi9APnl3qx9BvmUbfny/view?usp=drive_link)] |
+| PASCAL VOC 2012 |    Fully     |  [[Google Drive](https://drive.google.com/file/d/1SPXHxDl7znsOqUi9APnl3qx9BvmUbfny/view?usp=drive_link)] |
+| PASCAL CONTEXT  |  Inductive   |  [[Google Drive](https://drive.google.com/file/d/1ZtNRtUR4fnl1b-oTc44v5HhmXhyx_w4-/view?usp=drive_link)] |
+| PASCAL CONTEXT  | Transductive |  [[Google Drive](https://drive.google.com/file/d/1AZspmBiyjeOzMg5Aq165CcPz3ZLA-_BS/view?usp=drive_link)] |
+| PASCAL CONTEXT  |    Fully     |  [[Google Drive](https://drive.google.com/file/d/1wTAC7uACPV66VEtlh0qzRMXmNN9mk5gU/view?usp=drive_link)] |
+| COCO Stuff 164K |  Inductive   |  [[Google Drive](https://drive.google.com/file/d/11t3cnRicO9esJrvRjx5O4jL_1v1FDPa8/view?usp=drive_link)] |
+| COCO Stuff 164K | Transductive |  [[Google Drive](https://drive.google.com/file/d/1BhxxmuW0R7Pyt2Ty4ERzg9lkKbZQmUY0/view?usp=drive_link)] |
+| COCO Stuff 164K |    Fully     |  [[Google Drive](https://drive.google.com/file/d/1j4dDVz4hWUum68AdQC2n5FDkrstY-zhI/view?usp=drive_link)] |
 
 ## Inference:
  `python test.py ./path/to/config ./path/to/model.pth --eval=mIoU`

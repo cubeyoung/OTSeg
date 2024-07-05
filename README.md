@@ -90,11 +90,11 @@ CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-voc.p
 
 ## Acknowledgement:
  - CLIP:  https://github.com/openai/CLIP
- - MaskCLIP: https://github.com/chongzhou96/MaskCLIP
- - DenseCLIP: https://github.com/raoyongming/DenseCLIP/blob/master/segmentation/denseclip
  - Visual Prompt Tuning: https://github.com/KMnP/vpt
  - ZegOT: https://arxiv.org/abs/2301.12171
  - ZegCLIP: https://github.com/ZiqinZhou66/ZegCLIP
+ - PLOT: https://github.com/CHENGY12/PLOT
+ - Sinkformer: https://github.com/michaelsdr/sinkformers
  
 ## Citation:
 ```

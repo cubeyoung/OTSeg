@@ -3,7 +3,8 @@
 Authors: Kwanyoung Kim*, Yujin Oh*, Jong Chul Ye   
 *Equal contribution
 
-[[paper](https://arxiv.org/pdf/2403.14183)] [[project](https://cubeyoung.github.io/OTSeg_project/)] 
+[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://cubeyoung.github.io/OTSeg_project/)
+[![arXiv](https://img.shields.io/badge/arXiv-2312.00845-b31b1b.svg)](https://arxiv.org/pdf/2403.14183)
 
 ---
 
@@ -13,6 +14,9 @@ Authors: Kwanyoung Kim*, Yujin Oh*, Jong Chul Ye
 > <img width="800" src="figs/OT-attention.png">
 > </p>
 
+## News
+* [2024.07.05] Our official Code Release
+* [2024.07.04] Our paper is accepted on ECCV2024. 
 
 ## Environment:
 

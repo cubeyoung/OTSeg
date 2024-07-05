@@ -1,3 +1,9 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/otseg-multi-prompt-sinkhorn-attention-for/zero-shot-semantic-segmentation-on-pascal-voc)](https://paperswithcode.com/sota/zero-shot-semantic-segmentation-on-pascal-voc?p=otseg-multi-prompt-sinkhorn-attention-for)<br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/otseg-multi-prompt-sinkhorn-attention-for/zero-shot-semantic-segmentation-on-coco-stuff)](https://paperswithcode.com/sota/zero-shot-semantic-segmentation-on-coco-stuff?p=otseg-multi-prompt-sinkhorn-attention-for)<br>
+
+
+
+
 # OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation (ECCV 2024)
 
 Authors: Kwanyoung Kim*, Yujin Oh*, Jong Chul Ye   

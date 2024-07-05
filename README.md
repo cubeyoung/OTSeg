@@ -51,7 +51,7 @@ https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d
 ## Training (Transductive):
  ```shell
  bash dist_train.sh ./configs/coco/vpt_seg_zero_vit-b_512x512_40k_12_100_multi_st.py Path/to/coco/trans --load-from=Path/to/coco/induct/iter_40000.pth
-  bash dist_train.sh ./configs/context/vpt_context_st_vpt.py Path/to/context/trans --load-from=Path/to/context/induct/induct/iter_20000.pth
+ bash dist_train.sh ./configs/context/vpt_context_st_vpt.py Path/to/context/trans --load-from=Path/to/context/induct/induct/iter_20000.pth
  bash dist_train.sh ./configs/voc12/vpt_seg_zero_vit-b_512x512_10k_12_10_st.py Path/to/voc12/trans --load-from=Path/to/voc12/induct/iter_10000.pth
  ```
 
@@ -81,11 +81,11 @@ https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d
 
 ## Cross Dataset Inference:
 ```shell
-CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/coco-to-ade.py Path/to/coco/trans/iter_80000.pth --eval=mIoU
-CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/coco-to-context.py Path/to/coco/trans/iter_80000.pth --eval=mIoU
-CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/coco-to-voc.py Path/to/coco/trans/iter_80000.pth --eval=mIoU
-CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-coco.py Path/to/context/trans/iter_40000.pth --eval=mIoU
-CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-voc.py Path/to/context/trans/iter_40000.pth --eval=mIoU
+CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/coco-to-ade.py Path/to/coco/trans/iter_40000.pth --eval=mIoU
+CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/coco-to-context.py Path/to/coco/trans/iter_40000.pth --eval=mIoU
+CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/coco-to-voc.py Path/to/coco/trans/iter_40000.pth --eval=mIoU
+CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-coco.py Path/to/context/trans/iter_20000.pth --eval=mIoU
+CUDA_VISIBLE_DEVICES="0" python test.py ./configs/cross_dataset/context-to-voc.py Path/to/context/trans/iter_20000.pth --eval=mIoU
 ```
 
 ## Acknowledgement:

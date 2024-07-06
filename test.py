@@ -201,7 +201,7 @@ def main():
 
     # build the model and load checkpoint
     cfg.model.train_cfg = None
-    if 'CLIP' in cfg.model.type:
+    if 'Seg' in cfg.model.type:
         cfg.model.class_names = list(dataset.CLASSES)
 
     model = build_segmentor(cfg.model, test_cfg=cfg.get('test_cfg'))

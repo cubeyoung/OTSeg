@@ -1,4 +1,4 @@
-from models.segmentor.zegclip import OTSeg
+from models.segmentor.otseg import OTSeg
 
 from models.backbone.text_encoder import CLIPTextEncoder
 from models.backbone.img_encoder import CLIPVisionTransformer, VPTCLIPVisionTransformer

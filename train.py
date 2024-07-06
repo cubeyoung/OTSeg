@@ -151,7 +151,7 @@ def main():
 
     datasets = [build_dataset(cfg.data.train)]
 
-    if 'CLIP' in cfg.model.type:
+    if 'Seg' in cfg.model.type:
         cfg.model.class_names = list(datasets[0].CLASSES)
 
     model = build_segmentor(
